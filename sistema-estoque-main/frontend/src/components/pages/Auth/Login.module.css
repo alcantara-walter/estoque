@@ -1,0 +1,36 @@
+.titulo h1 {
+    margin-bottom: 1em;
+}
+
+.botoes input {
+    margin-left: 226px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.botoes p {
+   margin-left: 1.5em;
+   margin-bottom: 1em;
+   font-style: italic;
+   margin-top: 1em;
+}
+
+.botoes a {
+    margin-left: 0.2em;
+    font-style: normal;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.botoes a:hover{
+    font-weight: bold;
+}
+
+.botoes input:hover{
+   font-weight: bold;
+}

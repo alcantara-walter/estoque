@@ -1,0 +1,52 @@
+.navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #1D6703;
+    color: white;
+    font-weight: bold
+}
+
+.centralizado h4 {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.centralizado img {
+    padding-right: 0.5em;
+}
+
+.navbar_autenticado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 1px grey;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sair {
+    padding: 5px 35px;
+    background-color: white;
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.sair:hover{
+   font-weight: bold;
+
+}
+
+.icon {
+    width: 40px;
+}

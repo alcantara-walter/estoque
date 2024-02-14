@@ -1,0 +1,30 @@
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 1.5em 1em 1.5em;
+}
+
+.botoes input {
+    width: 130px;
+    height: 25px;
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.botoes input:hover{
+    font-weight: bold;
+}
+
+
+.botoes a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.botoes a:hover{
+   font-weight: bold;
+}

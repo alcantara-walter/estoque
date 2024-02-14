@@ -1,0 +1,24 @@
+.form_control {
+    margin: 1em 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.form_control input {
+    width: 100px;
+    padding: 0.6em;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+
+
+
+

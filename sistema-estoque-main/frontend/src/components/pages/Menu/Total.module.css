@@ -1,0 +1,48 @@
+.container_produto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.produto {
+    width: 80px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5em 0;
+}
+
+.produto h4 {
+    font-size: 1.3em;
+}
+
+.titulo p {
+    margin: 2em;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 0.8em;
+    color: green;
+}
+
+.botao {
+    margin: 2em 1.5em 1em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao a {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+   
+}
+
+.botao a:hover{
+   font-weight: bold
+   
+}
